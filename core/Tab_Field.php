@@ -35,7 +35,7 @@ class Tab_Field extends Field {
 		$dir = \Carbon_Field_Tab\DIR . '/languages/';
 		$locale = get_locale();
 		$path = $dir . $locale . '.mo';
-		load_textdomain( 'carbon-field-tab', $path );
+		load_textdomain( 'carbon-field-Tab', $path );
 	}
 
 	/**
@@ -46,10 +46,10 @@ class Tab_Field extends Field {
 		$root_uri = \Carbon_Fields\Carbon_Fields::directory_to_url( \Carbon_Field_Tab\DIR );
 
 		# Enqueue JS
-		wp_enqueue_script( 'carbon-field-tab', $root_uri . '/assets/js/bundle.js', array( 'carbon-fields-boot' ) );
+		wp_enqueue_script( 'carbon-field-Tab', $root_uri . '/assets/js/bundle.js', array( 'carbon-fields-boot' ) );
 
 		# Enqueue CSS
-		wp_enqueue_style( 'carbon-field-tab', $root_uri . '/assets/css/field.css' );
+		wp_enqueue_style( 'carbon-field-Tab', $root_uri . '/assets/css/field.css' );
 	}
 
 	/**

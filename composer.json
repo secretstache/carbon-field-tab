@@ -2,7 +2,7 @@
     "name": "ssm/carbon-field-tab",
     "description": "Carbon Fields extension, that adds a Tab field type.",
     "keywords": ["wordpress", "carbon-field", "carbon-field-tab"],
-    "homepage": "",
+    "homepage": "https://github.com/secretstache/carbon-field-tab",
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [],
