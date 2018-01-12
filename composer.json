@@ -1,0 +1,20 @@
+{
+    "name": "ssm/carbon-field-tab",
+    "description": "Carbon Fields extension, that adds a Tab field type.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-tab"],
+    "homepage": "",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [],
+    "require": {
+        "htmlburger/carbon-fields": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "field.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_Tab\\": "core/"
+        }
+    }
+}
